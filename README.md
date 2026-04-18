@@ -2,11 +2,7 @@
 The Discord API Wrapper that works for both bots and user accounts.
 
 > [!WARNING]  
-> This library is still a work in progress. Only the following classes are implemented:
-> * Event Listeners
-> * Interactions
-> * TextChannels
-> * Messages (excluding special elements like Embeds or ActionRows)
+> not being updated anymore but feel free to fork it or whatever
 
 ## Installing
 #### npm
@@ -33,9 +29,5 @@ import { Client, IntentBits, TextChannel, generateNonce } from 'discorator.js'
     let res = await channel.emitCommand('ping', 'id') // issue a command (name and application id), subcommand and args are under the 'options' argument, although they need to be manually constructed at the moment.
     
 })();
-```
-
-## Contribution
-We're looking for contributors! Pull requests, Issues, and Documentation updates are all heavily encouraged.
-We're hoping to finish implementing all methods, classes and endpoints in a while.
+``
 
