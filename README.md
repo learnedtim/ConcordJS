@@ -11,7 +11,7 @@ npm i discorator.js
 ```
 
 ## Example
-You can check the example files in the `testing` directory for more details, however the following shows how one would sign into Discord:
+You can check the example files in the `testing` directory for more details, but you log into Discord like this:
 ```js
 import { Client, IntentBits, TextChannel, generateNonce } from 'discorator.js'
 
